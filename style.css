@@ -234,9 +234,6 @@ nav ul li a:not(.active):hover {
     letter-spacing: 4px;
     line-height: 55px;
     margin-bottom: 5px;
-}
-
-.container h6 {
     font-size: 20px;
     line-height: 25px;
     font-family: 'Jost';
