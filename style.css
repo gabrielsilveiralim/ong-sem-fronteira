@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    border: 0;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    color:#43639E;
+}
+
+header img {
+    width: 100px; 
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-left: 1.5%;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    left: 8em;
+}
+   
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    margin-right: 20px;
+}
+
+
+nav ul li a:hover,
+nav ul li a.active { 
+    color: #43639E;
+}
+
+nav ul li a:not(.active):hover {
+    opacity: 0.5;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+  color: #43639E;
+  padding-left: 80px;
+  margin-top: 50px;
+}
+
+.container h1 {
+    font-size: 46px;
+}
+
+.container h6 {
+    font-size: 24px;
+    line-height: 25px;
+}
+
+
+.caridade {
+  text-align: right;
+  padding-right: 140px;
+}
+
+.caridade img {
+  width: 490px;
+  height: auto;
+}
+
+.aviao {
+    display: flex;
+    justify-content: center;
+    padding-left: 25%;
+}
+
+.aviao img {
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+}
+
+button {
+   width: 130px;
+   height: 50px;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 5px; 
+}
+
+.input {
+  margin-left: 90px;
+  box-shadow: 10px #000;
+}
+
+.doe {
+    background: #43639E;
+    color: #fff;
+}
+
+.vonl {
+    background: #b4afaf;
+    color: black;
+}
