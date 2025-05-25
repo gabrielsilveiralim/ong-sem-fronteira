@@ -40,13 +40,14 @@ h4 {
 }
 
 nav {
-    position: fixed;
-    top: 25px;
+    position: static;
+    margin-top: 8px;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 10px 200px;
     left: 8em;
+    z-index: 100;
 }
 
 nav ul {
@@ -184,9 +185,9 @@ button {
 }
 
 .know {
-    margin-top: 30px;  
+    margin-top: 30px;
     background: #43639E;
-    height: auto;
+    height: 800px;
 }
 
 .start,
@@ -207,14 +208,74 @@ button {
 .start h1,
 .act h1 {
     font-size: 80px;
+    margin-top: 20px;
+    font-family: 'Jomhuria';
+}
+
+.know-start {
+    margin-left: 750px;
+    margin-bottom: 20px;
+}
+
+.know-start h1 {
+    text-align: center;
+}
+
+.k-know-start {
+    height: 100px;
+    width: 500px;
+    margin-left: 35px;
 }
 
 .act img {
     width: 700px;
     height: auto;
+    margin-left: 200px;
+    margin-top: 50px;
 }
 
-@media (max-width: 450px) {
+.know-act h1 {
+    text-align: center;
+}
+
+.k-know-act {
+    height: auto;
+    width: 500px;
+    margin-left: 35px;
+}
+
+.help {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 800px;
+    font-family: 'Jost';
+}
+
+.know-help {
+    height: 100px;
+    width: 600px;
+}
+
+.k-know-help {
+    height: 100px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.help h1 span {
+    color: #43639E;
+}
+
+.help h1 {
+    font-size: 80px;
+}
+
+.help p {
+    font-size: 22px;
+    color: #43639E;
+}
+
+@media (max-width: 427px) {
 
     body,
     html {
@@ -227,7 +288,7 @@ button {
         height: auto;
         align-items: center;
         margin-bottom: 20px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .header-text {
@@ -257,11 +318,12 @@ button {
     .container {
         display: block;
         align-items: center;
+        margin-left: -40px;
     }
 
-
     .container h1 {
-        font-size: 80px;
+        font-size: 70px;
+        line-height: 40px;
     }
 
     .container p {
@@ -276,11 +338,16 @@ button {
     button {
         width: 150px;
         height: 50px;
-        margin-top: 175px;
+        margin-top: 180px;
+        margin-left: 40px;
     }
 
     .plane img {
         width: 175px;
+    }
+
+    .know {
+        height: 830px;
     }
 
     .know h1,
@@ -289,9 +356,29 @@ button {
         text-align: center;
     }
 
-    .know p , .act p {
+    .know-start {
+        margin-left: 5px;
+    }
+
+    .k-know-start {
+        width: 375px;
+        margin-left: 2px;
+    }
+
+    .know p,
+    .act p {
         font-size: 16px;
         margin-bottom: 30px;
+    }
+
+    .know-act h1 {
+        text-align: center;
+    }
+
+    .k-know-act {
+        height: auto;
+        width: 375px;
+        margin-left: 10px;
     }
 
     .act {
@@ -301,7 +388,33 @@ button {
     }
 
     .act img {
-        width: 450px;
+        width: 375px;
         height: auto;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .help {
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    .know-help {
+        height: 100px;
+        width: 400px;
+    }
+
+    .k-know-help {
+        height: 100px;
+        width: 375px;
+        margin-left: 5px;
+    }
+
+    .help h1 {
+        font-size: 50px;
+    }
+
+    .help p {
+        font-size: 16px;
     }
 }
