@@ -214,7 +214,7 @@ button {
     height: auto;
 }
 
-@media (max-width:600px) {
+@media (max-width: 450px) {
 
     body,
     html {
@@ -281,7 +281,6 @@ button {
 
     .plane img {
         width: 175px;
-
     }
 
     .know h1,
