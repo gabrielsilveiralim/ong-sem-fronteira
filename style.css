@@ -91,7 +91,7 @@ nav ul li a:not(.active):hover {
 
 .container h1 {
     font-size: 120px;
-    line-height: 60px;
+    line-height: 80px;
     font-family: 'Jomhuria';
 }
 
@@ -100,6 +100,16 @@ nav ul li a:not(.active):hover {
     line-height: 25px;
     font-family: 'Jost';
     margin-bottom: 40px;
+}
+
+.text {
+    width: 700px;
+    height: auto;
+}
+
+.t-text {
+    width: 600px;
+    height: auto;
 }
 
 .charity {
@@ -327,6 +337,11 @@ button {
 
     .container p {
         font-size: 15px;
+    }
+
+    .t-text {
+    width: 375px;
+    height: auto;
     }
 
     .charity-images img {
