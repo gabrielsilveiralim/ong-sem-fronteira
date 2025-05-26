@@ -286,12 +286,6 @@ button {
 }
 
 @media (max-width: 427px) {
-
-    body,
-    html {
-        width: 100%;
-    }
-
     header img {
         width: 70px;
         height: auto;
