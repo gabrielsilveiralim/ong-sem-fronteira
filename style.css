@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     border: 0;
-    margin: 0;
+    margin: 0;  
 }
 
 header {
@@ -285,7 +285,41 @@ button {
     color: #43639E;
 }
 
+.voluntario {
+    display: flex;
+    font-family: 'Jost';
+}
+
+.voluntario h1 span {
+    color: #43639E;
+}
+
+.voluntario h1 {
+    font-size: 80px;
+}
+
+.voluntario p {
+    font-size: 22px;
+    color: #43639E;
+}
+
+
+
+.v-volun-help {
+    height: 100px;
+    width: 500px;
+}
+
+
+
+
 @media (max-width: 427px) {
+    body,
+    html{
+        overflow: hidden;
+        
+    }
+    
     header img {
         width: 70px;
         height: auto;
