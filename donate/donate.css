@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;  
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    color: #43639E;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.5%;
+    margin-top: -5px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Jomhuria';
+}
+
+h4 {
+    margin: 0;
+    font-family: 'Jost';
+    line-height: 20px;
+    margin-top: -10px;
+}
+
+nav {
+    position: static;
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 200px;
+    left: 8em;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin-right: 20px;
+    font-family: 'Jost';
+    color: #43639E;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #1a376d;
+}
+
+nav ul li a:not(.active):hover {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    font-family: 'Jost';
+    background-color:#43639E;
+    color: #fff;  
+    flex-wrap: nowrap;
+    height: 275px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-top:  10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.c-local img,
+.c-email img,
+.c-number img {
+    width: 20px;
+    height: auto;
+    margin-bottom: -4px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.logo-footer img{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 675px;
+    margin-top: -110px;
+    font-size: 32px;
+}
+
+.social-network {
+   margin-left: 1150px;
+   margin-top:  -70px;
+   
+}

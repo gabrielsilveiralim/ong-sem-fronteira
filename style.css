@@ -2,7 +2,26 @@
     box-sizing: border-box;
     padding: 0;
     border: 0;
-    margin: 0;  
+    margin: 0;
+}
+
+:root {
+    --foto: url('imgs/child.png');
+    --foto-2: url('imgs/donate.png');
+}
+
+@keyframes troca-fundo {
+    0% {
+        background-image: var(--foto);
+    }
+
+    50% {
+        background-image: var(--foto-2);
+    }
+
+    100% {
+        background-image: var(--foto);
+    }
 }
 
 header {
@@ -195,9 +214,16 @@ button {
 }
 
 .know {
-    margin-top: 30px;
     background: #43639E;
-    height: 800px;
+    height: 1200px;
+}
+
+.know h1 {
+    font-size: 90px;
+    font-family: 'Jomhuria';
+    text-align: center;
+    color: #fff;
+    margin-bottom: -70px;
 }
 
 .start,
@@ -218,8 +244,9 @@ button {
 .start h1,
 .act h1 {
     font-size: 80px;
-    margin-top: 20px;
+    margin-top: 120px;
     font-family: 'Jomhuria';
+    margin-bottom: 2px;
 }
 
 .know-start {
@@ -237,11 +264,18 @@ button {
     margin-left: 35px;
 }
 
+.start img {
+    width: 500px;
+    height: auto;
+    margin-left: -1200px;
+    margin-top: 60px;
+}
+
 .act img {
     width: 700px;
     height: auto;
     margin-left: 200px;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 
 .know-act h1 {
@@ -264,6 +298,7 @@ button {
 .know-help {
     height: 100px;
     width: 600px;
+    margin-left: -30px;
 }
 
 .k-know-help {
@@ -281,13 +316,24 @@ button {
 }
 
 .help p {
-    font-size: 22px;
+    font-size: 24px;
     color: #43639E;
+
+}
+
+.help img {
+    width: 550px;
+    height: auto;
+    margin-left: -1250px;
 }
 
 .voluntario {
     display: flex;
     font-family: 'Jost';
+    margin-left: 100px;
+    margin-top: 175px;
+    flex-direction: column;
+    margin-bottom: 180px;
 }
 
 .voluntario h1 span {
@@ -303,23 +349,72 @@ button {
     color: #43639E;
 }
 
-
-
 .v-volun-help {
     height: 100px;
-    width: 500px;
+    width: 600px;
+    margin-left: 5px;
+}
+
+
+.voluntario img {
+    width: 530px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: -170px;
+}
+
+footer {
+    font-family: 'Jost';
+    background-color: #43639E;
+    color: #fff;
+    flex-wrap: nowrap;
+    height: 275px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.c-local img,
+.c-email img,
+.c-number img {
+    width: 20px;
+    height: auto;
+    margin-bottom: -4px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.logo-footer img {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 675px;
+    margin-top: -110px;
+    font-size: 32px;
+}
+
+.social-network {
+    margin-left: 1150px;
+    margin-top: -70px;
+
 }
 
 
 
 
 @media (max-width: 427px) {
-    body,
-    html{
-        overflow: hidden;
-        
-    }
-    
+
+
     header img {
         width: 70px;
         height: auto;
@@ -368,8 +463,8 @@ button {
     }
 
     .t-text {
-    width: 375px;
-    height: auto;
+        width: 375px;
+        height: auto;
     }
 
     .charity-images img {
@@ -389,7 +484,7 @@ button {
     }
 
     .know {
-        height: 830px;
+        height: 1050px;
     }
 
     .know h1,
@@ -400,11 +495,19 @@ button {
 
     .know-start {
         margin-left: 5px;
+        margin-top: -120px;
     }
 
     .k-know-start {
         width: 375px;
         margin-left: 2px;
+    }
+
+    .start img {
+        width: 300px;
+        height: auto;
+        margin-left: -350px;
+        margin-top: 190px;
     }
 
     .know p,
@@ -427,6 +530,7 @@ button {
         display: flex;
         flex-direction: column;
         justify-items: center;
+        margin-top: -70px;
     }
 
     .act img {
@@ -437,7 +541,7 @@ button {
     }
 
     .help {
-        margin-left: 15px;
+        margin-left: 50px;
         margin-top: 40px;
     }
 
@@ -459,4 +563,105 @@ button {
     .help p {
         font-size: 16px;
     }
+
+    .help img {
+    width: 350px;
+    height: auto;
+    margin-left: -395px;
+    margin-top: 210px;
+    }
+
+    .voluntario {
+        margin-top: 150px;
+        flex-direction: column;
+        margin-bottom: 180px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .voluntario h1 span {
+        color: #43639E;
+    }
+
+    .voluntario h1 {
+        font-size: 50px;
+    }
+
+    .voluntario p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .v-volun-help {
+        height: 100px;
+        width: 375px;
+        margin-left: 5px;
+    }
+
+    .voluntario img {
+        width: 350px;
+        height: auto;
+        margin-left: 5px;
+        margin-top: 85px;
+    }
+
+    footer {
+        height: 275px;
+        font-size: 20px;
+    }
+
+    .logo-footer img {
+        width: 200px;
+        height: auto;
+        margin-bottom: -10px;
+    }
+
+    .logo-footer {
+        margin-left: -30px;
+    }
+
+    .contato p {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: -20px;
+        width: 350px;
+    }
+
+    .c-local img,
+    .c-email img,
+    .c-number img {
+        width: 15px;
+        height: auto;
+        margin-bottom: -4px;
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+
+    .logo-footer img {
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 320px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+
+    .social-network {
+        margin-left: 150px;
+        margin-top: 40px;
+
+    }
+
+    .social-network img {
+        width: 20px;
+        height: auto;
+    }
+
+
 }
