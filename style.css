@@ -413,6 +413,11 @@ footer {
 
 
 @media (max-width: 427px) {
+    body,
+    html{
+        overflow-x: hidden;
+        overflow-y:auto ;
+    }
 
 
     header img {
@@ -475,7 +480,7 @@ footer {
     button {
         width: 150px;
         height: 50px;
-        margin-top: 190px;
+        margin-top: 200px;
         margin-left: 40px;
     }
 
@@ -567,8 +572,8 @@ footer {
     .help img {
     width: 350px;
     height: auto;
-    margin-left: -395px;
-    margin-top: 210px;
+    margin-left: -385px;
+    margin-top: 230px;
     }
 
     .voluntario {
@@ -601,12 +606,12 @@ footer {
     .voluntario img {
         width: 350px;
         height: auto;
-        margin-left: 5px;
+        margin-left: 15px;
         margin-top: 85px;
     }
 
     footer {
-        height: 275px;
+        height: 255px;
         font-size: 20px;
     }
 
@@ -617,7 +622,7 @@ footer {
     }
 
     .logo-footer {
-        margin-left: -30px;
+        margin-left: -40px;
     }
 
     .contato p {
@@ -635,7 +640,7 @@ footer {
         height: auto;
         margin-bottom: -4px;
         margin-top: 4px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .logo-footer img {
@@ -647,14 +652,14 @@ footer {
     .info {
         display: flex;
         flex-direction: column;
-        margin-left: 320px;
-        margin-top: -80px;
-        font-size: 20px;
+        margin-left: 330px;
+        margin-top: -77px;
+        font-size: 18px;
     }
 
     .social-network {
         margin-left: 150px;
-        margin-top: 40px;
+        margin-top: 20px;
 
     }
 
