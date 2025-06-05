@@ -111,6 +111,10 @@ nav ul li a:not(.active):hover {
     display: none;
 }
 
+.header-2 {
+    display: none;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -476,11 +480,12 @@ footer {
         color: #43639E;
         cursor: pointer;
         margin-top: -20px;
-        margin-left: 300px;
+        margin-left: -20px;
     }
 
     menu {
-        background-color: #43639E;
+        background-color: #fffffb;
+        box-shadow: 10px 5px 5px #b4afaf;
         background: blur(-5px);
         width: 50%;
         height: 400px;
@@ -491,17 +496,29 @@ footer {
         margin-right: 20px;
         font-family: 'Jost';
     }
+    
+    .header-2 {
+        display: block;
+    }
+    
+    .header-2 img {
+        width: 60px;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
 
     menu ul li a {
         text-decoration: none;
-        color: #b4afaf;
+        color: #777575;
         margin-left: 20px;
         margin-bottom: -20px;
     }
 
     ul li a:hover,
     ul li a.active {
-        color: #fff;
+        color: #43639E;
     }
 
     nav ul li a:not(.active):hover {
@@ -509,8 +526,8 @@ footer {
     }
 
     .nav-item.active a {
-        color: #fff;
-        border-bottom: 3px solid #ffffff;
+        color: #43639E;
+        border-bottom: 3px solid #43639E;
     }
 
 
@@ -718,7 +735,7 @@ footer {
     .info {
         display: flex;
         flex-direction: column;
-        margin-left: 310px;
+        margin-left: 290px;
         margin-top: -70px;
         font-size: 18px;
     }

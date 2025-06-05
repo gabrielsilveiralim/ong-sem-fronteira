@@ -20,11 +20,11 @@
     width: 130px;
     height: auto;
     margin-top: 130px;
-    margin-left:90px;
+    margin-left: 90px;
 }
 
-.logo h1{
-    font-family:'Jomhuria';
+.logo h1 {
+    font-family: 'Jomhuria';
     font-size: 80px;
     width: 300px;
     line-height: 50px;
@@ -52,20 +52,20 @@
     margin-left: 820px;
 }
 
-.form h1{
-  font-size: 68px;
-  font-family: 'Jomhuria';
+.form h1 {
+    font-size: 68px;
+    font-family: 'Jomhuria';
 }
 
-.form span{
+.form span {
     color: #43639E;
 }
 
 .input {
-    margin-left:35px;
+    margin-left: 35px;
 }
 
-.name label{
+.name label {
     display: flex;
     font-family: 'Jost';
     font-size: 14px;
@@ -81,7 +81,7 @@
     margin-bottom: 15px;
 }
 
-.email label{
+.email label {
     display: flex;
     font-family: 'Jost';
     font-size: 14px;
@@ -97,7 +97,7 @@
     margin-bottom: 15px;
 }
 
-.atuar label{
+.atuar label {
     display: flex;
     font-family: 'Jost';
     font-size: 14px;
@@ -126,7 +126,87 @@ button {
     color: #fff;
     font-size: 16px;
     font-family: 'Jost';
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-left: 110px;
     cursor: pointer;
+}
+
+
+@media (max-width: 427px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #43639E;
+    }
+
+    .retan {
+        display: none;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 140px;
+        margin-left: 10px;
+        background-color: #fff;
+        backdrop-filter: blur(2px);
+        border: 2px solid #CDC9C9;
+        opacity: 0.95;
+        width: 355px;
+    }
+
+    .form h1 {
+        font-size: 54px;
+        font-family: 'Jomhuria';
+        margin-left: 10px;
+    }
+
+    .input {
+        margin-left: 40px;
+    }
+
+    .name label {
+        font-size: 12px;
+    }
+
+    .name input {
+        width: 260px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #CDC9C9;
+        padding-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    .email label {
+        font-size: 12px;
+    }
+
+    .email input {
+        width: 260px;
+        height: 40px;   
+    }
+
+    .atuar label {
+        font-size: 12px;
+    }
+
+    .atuar span {
+        margin-left: 5px;
+        font-weight: 500;
+    }
+
+    .atuar select {
+        width: 260px;
+    }
+
+    button {
+        font-size: 14px;
+        font-family: 'Jost';
+        margin-top: 8px;
+        margin-left: 90px;
+        margin-bottom: 20px;
+    }
 }
