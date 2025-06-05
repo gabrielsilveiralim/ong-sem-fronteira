@@ -429,7 +429,7 @@ footer {
 
 
 
-@media (max-width: 427px) {
+@media screen and (max-width: 450px) {
 
     body,
     html {

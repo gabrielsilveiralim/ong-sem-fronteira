@@ -141,14 +141,44 @@ button {
         background-color: #43639E;
     }
 
-    .retan {
-        display: none;
+    .retan a img {
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    }
+
+    .logo img {
+        width: 70px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: 60px;
+    }
+
+    .logo h1 {
+        font-family: 'Jomhuria';
+        font-size: 50px;
+        width: 200px;
+        line-height: 30px;
+        margin-top: -60px;
+        margin-left: 140px;
+        color: #fff;
+    }
+
+    .logo h2 {
+        font-family: 'Jomhuria';
+        font-size: 32px;
+        line-height: 30px;
+        margin-top: 5px;
+        margin-left: 30px;
+        color: #fff;
+        width: 350px;
     }
 
     .form {
         display: flex;
         flex-direction: column;
-        margin-top: 140px;
+        margin-top: -450px;
         margin-left: 10px;
         background-color: #fff;
         backdrop-filter: blur(2px);
@@ -186,7 +216,7 @@ button {
 
     .email input {
         width: 260px;
-        height: 40px;   
+        height: 40px;
     }
 
     .atuar label {
