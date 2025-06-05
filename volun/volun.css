@@ -146,13 +146,14 @@ button {
     height: auto;
     margin-left: 20px;
     margin-top: 30px;
+    
     }
 
     .logo img {
         width: 70px;
         height: auto;
         margin-top: -10px;
-        margin-left: 60px;
+        margin-left: 80px;
     }
 
     .logo h1 {
@@ -161,7 +162,7 @@ button {
         width: 200px;
         line-height: 30px;
         margin-top: -60px;
-        margin-left: 140px;
+        margin-left: 160px;
         color: #fff;
     }
 
@@ -170,7 +171,7 @@ button {
         font-size: 32px;
         line-height: 30px;
         margin-top: 5px;
-        margin-left: 30px;
+        margin-left: 50px;
         color: #fff;
         width: 350px;
     }
@@ -179,7 +180,7 @@ button {
         display: flex;
         flex-direction: column;
         margin-top: -450px;
-        margin-left: 10px;
+        margin-left: 40px;
         background-color: #fff;
         backdrop-filter: blur(2px);
         border: 2px solid #CDC9C9;
