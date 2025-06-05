@@ -180,7 +180,7 @@ button {
         display: flex;
         flex-direction: column;
         margin-top: -450px;
-        margin-left: 40px;
+        margin-left: 35px;
         background-color: #fff;
         backdrop-filter: blur(2px);
         border: 2px solid #CDC9C9;
