@@ -86,7 +86,7 @@ nav ul li a {
     transition: 0.3s ease;
     margin-right: 20px;
     font-family: 'Jost';
-    color: #43639E;
+    color: #b4afaf;
 }
 
 nav ul li a:hover,
@@ -95,7 +95,20 @@ nav ul li a.active {
 }
 
 nav ul li a:not(.active):hover {
-    opacity: 0.5;
+    opacity: 0.8;
+}
+
+.nav-item.active a {
+    color: #43639E;
+    border-bottom: 3px solid #43639E;
+}
+
+.mobile-btn {
+    display: none;
+}
+
+.mobile_menu {
+    display: none;
 }
 
 .container {
@@ -413,12 +426,12 @@ footer {
 
 
 @media (max-width: 427px) {
-    body,
-    html{
-        overflow-x: hidden;
-        overflow-y:auto ;
-    }
 
+    body,
+    html {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
 
     header img {
         width: 70px;
@@ -452,7 +465,57 @@ footer {
         display: none;
     }
 
+    menu {
+        display: none;
+    }
+
+    .mobile-btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        color: #43639E;
+        cursor: pointer;
+        margin-top: -20px;
+        margin-left: 300px;
+    }
+
+    menu {
+        background-color: #43639E;
+        background: blur(-5px);
+        width: 50%;
+        height: 400px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        margin-right: 20px;
+        font-family: 'Jost';
+    }
+
+    menu ul li a {
+        text-decoration: none;
+        color: #b4afaf;
+        margin-left: 20px;
+        margin-bottom: -20px;
+    }
+
+    ul li a:hover,
+    ul li a.active {
+        color: #fff;
+    }
+
+    nav ul li a:not(.active):hover {
+        opacity: 0.8;
+    }
+
+    .nav-item.active a {
+        color: #fff;
+        border-bottom: 3px solid #ffffff;
+    }
+
+
     .container {
+        margin-top: 0px;
         display: block;
         align-items: center;
         margin-left: -40px;
@@ -570,10 +633,10 @@ footer {
     }
 
     .help img {
-    width: 350px;
-    height: auto;
-    margin-left: -385px;
-    margin-top: 230px;
+        width: 350px;
+        height: auto;
+        margin-left: -385px;
+        margin-top: 230px;
     }
 
     .voluntario {
@@ -627,7 +690,7 @@ footer {
 
     .contato p {
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: bold;
         margin-left: -20px;
         width: 350px;
@@ -636,11 +699,15 @@ footer {
     .c-local img,
     .c-email img,
     .c-number img {
-        width: 15px;
+        width: 12px;
         height: auto;
         margin-bottom: -4px;
         margin-top: 4px;
         margin-left: 30px;
+    }
+
+    .c-number {
+        text-decoration: none;
     }
 
     .logo-footer img {
@@ -648,19 +715,17 @@ footer {
         margin-left: 50px;
     }
 
-
     .info {
         display: flex;
         flex-direction: column;
-        margin-left: 330px;
-        margin-top: -77px;
+        margin-left: 310px;
+        margin-top: -70px;
         font-size: 18px;
     }
 
     .social-network {
         margin-left: 150px;
-        margin-top: 20px;
-
+        margin-top: 0px;
     }
 
     .social-network img {
