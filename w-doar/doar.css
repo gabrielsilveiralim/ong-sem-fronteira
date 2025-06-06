@@ -178,10 +178,10 @@ button {
     .form {
         display: flex;
         flex-direction: column;
-        margin-left: 40px;
+        margin-left: 35px;
         margin-top: 20px;
         background-color: #43639E;
-        width: 365px;
+        width: 360px;
     }
 
     .form h1 {
