@@ -178,7 +178,7 @@ button {
     .form {
         display: flex;
         flex-direction: column;
-        margin-left: 25px;
+        margin-left: 30px;
         margin-top: 20px;
         background-color: #43639E;
         width: 360px;
