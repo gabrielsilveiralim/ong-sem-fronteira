@@ -13,7 +13,7 @@
 .retan {
     width: 50%;
     height: 670px;
-    margin-top: -600px;
+    margin-top: -440px;
     background-color: #43639E;
 }
 
@@ -131,7 +131,7 @@ button {
 .logo img {
     width: 130px;
     height: auto;
-    margin-top: 250px;
+    margin-top: 100px;
     margin-left: 800px;
 }
 
@@ -259,7 +259,7 @@ button {
         width: 80px;
         height: auto;
         margin-top: 40px;
-        margin-left: 30px;
+        margin-left: 25px;
     }
 
     .logo h1 {
@@ -268,7 +268,7 @@ button {
         width: 200px;
         line-height: 30px;
         margin-top: -65px;
-        margin-left: 120px;
+        margin-left: 115px;
         color: #43639E;
 
     }
@@ -278,7 +278,7 @@ button {
         font-size: 32px;
         line-height: 20px;
         margin-top: 15px;
-        margin-left: 30px;
+        margin-left: 15px;
         color: #43639E;
         width: 330px;
     }
