@@ -55,7 +55,6 @@ nav ul li a {
     margin-right: 20px;
     font-family: 'Jost';
     color: #b4afaf;
-    ;
 }
 
 nav ul li a:hover,
@@ -496,142 +495,142 @@ footer {
         align-items: center;
     }
 
-   .haiti {
-    margin-top: 40px;
-    margin-left: 0px;
-    margin-right: 0px;
-    align-items: center;
-}
+    .haiti {
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+    }
 
-.h-haiti {
-    margin-left: 60px;
-    margin-top: 0px;
-    width: 280px;
-    height: auto;
-    align-items: center;
-    margin-bottom: 30px;
-}
+    .h-haiti {
+        margin-left: 60px;
+        margin-top: 0px;
+        width: 280px;
+        height: auto;
+        align-items: center;
+        margin-bottom: 30px;
+    }
 
-.h-haiti p {
-    font-size: 15px;
-    margin-bottom: 8px;
-    text-align: center;
-    margin-left: 20px;
-    width: 250px;
-}
+    .h-haiti p {
+        font-size: 15px;
+        margin-bottom: 8px;
+        text-align: center;
+        margin-left: 20px;
+        width: 250px;
+    }
 
-.h-haiti p img {
-    margin-left: 0px;
-    margin-bottom: 0px;
-    width: 15px;
-    height: auto;
-}
+    .h-haiti p img {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 15px;
+        height: auto;
+    }
 
-.h-haiti h1 {
-    font-size: 36px;
-    color: #43639E;
-    margin-bottom: -10px;
-    text-align: center;
-}
+    .h-haiti h1 {
+        font-size: 36px;
+        color: #43639E;
+        margin-bottom: -10px;
+        text-align: center;
+    }
 
-.h-haiti h2 {
-    font-size: 18px;
-    color: #CF4646;
-    margin-bottom: 5px;
-    text-align: center;
-    margin-top: 0;
-}
+    .h-haiti h2 {
+        font-size: 18px;
+        color: #CF4646;
+        margin-bottom: 5px;
+        text-align: center;
+        margin-top: 0;
+    }
 
-.haiti img {
-    width: 320px;
-    height: auto;
-    margin-top: 0px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-}
+    .haiti img {
+        width: 320px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
 
 
     .mocam,
-.siria,
-.afe,
-.ucrania,
-.xique {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 40px;
-    align-items: center;
-}
+    .siria,
+    .afe,
+    .ucrania,
+    .xique {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 40px;
+        align-items: center;
+    }
 
-.mocam img,
-.siria img,
-.afe img,
-.ucrania img,
-.xique img {
-    width: 320px;
-    height: auto;
-    margin-top: 0px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
+    .mocam img,
+    .siria img,
+    .afe img,
+    .ucrania img,
+    .xique img {
+        width: 320px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
 
-.m-mocam,
-.s-siria,
-.a-afe,
-.u-ucrania,
-.x-xique {
-    margin-left: 60px;
-    margin-top: 0px;
-    width: 280px;
-    height: auto;
-    align-items: center;
-    margin-bottom: 30px;
-}
+    .m-mocam,
+    .s-siria,
+    .a-afe,
+    .u-ucrania,
+    .x-xique {
+        margin-left: 60px;
+        margin-top: 0px;
+        width: 280px;
+        height: auto;
+        align-items: center;
+        margin-bottom: 30px;
+    }
 
-.m-mocam p,
-.s-siria p,
-.a-afe p,
-.u-ucrania p,
-.x-xique p {
-    font-size: 15px;
-    margin-bottom: 8px;
-    text-align: center;
-    margin-left: 20px;
-    width: 250px;
-}
+    .m-mocam p,
+    .s-siria p,
+    .a-afe p,
+    .u-ucrania p,
+    .x-xique p {
+        font-size: 15px;
+        margin-bottom: 8px;
+        text-align: center;
+        margin-left: 20px;
+        width: 250px;
+    }
 
-.m-mocam p img,
-.s-siria p img,
-.a-afe p img,
-.u-ucrania p img,
-.x-xique p img {
-    margin-left: 0px;
-    margin-bottom: 0px;
-    width: 15px;
-    height: auto;
-}
+    .m-mocam p img,
+    .s-siria p img,
+    .a-afe p img,
+    .u-ucrania p img,
+    .x-xique p img {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 15px;
+        height: auto;
+    }
 
-.m-mocam h1,
-.s-siria h1,
-.a-afe h1,
-.u-ucrania h1,
-.x-xique h1 {
-    font-size: 36px;
-    color: #43639E;
-    margin-bottom: -10px;
-    text-align: center;
-}
+    .m-mocam h1,
+    .s-siria h1,
+    .a-afe h1,
+    .u-ucrania h1,
+    .x-xique h1 {
+        font-size: 36px;
+        color: #43639E;
+        margin-bottom: -10px;
+        text-align: center;
+    }
 
-.m-mocam h2,
-.s-siria h2,
-.a-afe h2,
-.u-ucrania h2,
-.x-xique h2 {
-    font-size: 18px;
-    color: #CF4646;
-    margin-bottom: 5px;
-    text-align: center;
-    margin-top: 0;
-}
+    .m-mocam h2,
+    .s-siria h2,
+    .a-afe h2,
+    .u-ucrania h2,
+    .x-xique h2 {
+        font-size: 18px;
+        color: #CF4646;
+        margin-bottom: 5px;
+        text-align: center;
+        margin-top: 0;
+    }
 
 
     footer {
